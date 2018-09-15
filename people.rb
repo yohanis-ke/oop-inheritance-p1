@@ -19,3 +19,8 @@ class Instructor
     puts "everything in ruby is an object"
   end
 end
+nadia = Instructor.new("Nadia")
+chris = Student.new('Chris')
+
+nadia.teach
+chris.learn
